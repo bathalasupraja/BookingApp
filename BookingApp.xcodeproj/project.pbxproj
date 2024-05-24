@@ -16,6 +16,8 @@
 		369D76A92C00587000777A8E /* BookingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D76A82C00587000777A8E /* BookingAppTests.swift */; };
 		369D76B32C00587000777A8E /* BookingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D76B22C00587000777A8E /* BookingAppUITests.swift */; };
 		369D76B52C00587000777A8E /* BookingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D76B42C00587000777A8E /* BookingAppUITestsLaunchTests.swift */; };
+		369D76C32C00598400777A8E /* HotelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369D76C12C00598400777A8E /* HotelTableViewCell.swift */; };
+		369D76C42C00598400777A8E /* HotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369D76C22C00598400777A8E /* HotelTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		369D76AE2C00587000777A8E /* BookingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		369D76B22C00587000777A8E /* BookingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingAppUITests.swift; sourceTree = "<group>"; };
 		369D76B42C00587000777A8E /* BookingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		369D76C12C00598400777A8E /* HotelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelTableViewCell.swift; sourceTree = "<group>"; };
+		369D76C22C00598400777A8E /* HotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotelTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				369D76932C00586E00777A8E /* SceneDelegate.swift */,
 				369D76952C00586E00777A8E /* ViewController.swift */,
 				369D76972C00586E00777A8E /* Main.storyboard */,
+				369D76C12C00598400777A8E /* HotelTableViewCell.swift */,
+				369D76C22C00598400777A8E /* HotelTableViewCell.xib */,
 				369D769A2C00587000777A8E /* Assets.xcassets */,
 				369D769C2C00587000777A8E /* LaunchScreen.storyboard */,
 				369D769F2C00587000777A8E /* Info.plist */,
@@ -233,6 +239,7 @@
 			files = (
 				369D769E2C00587000777A8E /* LaunchScreen.storyboard in Resources */,
 				369D769B2C00587000777A8E /* Assets.xcassets in Resources */,
+				369D76C42C00598400777A8E /* HotelTableViewCell.xib in Resources */,
 				369D76992C00586E00777A8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +267,7 @@
 			files = (
 				369D76962C00586E00777A8E /* ViewController.swift in Sources */,
 				369D76922C00586E00777A8E /* AppDelegate.swift in Sources */,
+				369D76C32C00598400777A8E /* HotelTableViewCell.swift in Sources */,
 				369D76942C00586E00777A8E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
